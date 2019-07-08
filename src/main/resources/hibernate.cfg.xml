@@ -1,0 +1,38 @@
+<hibernate-configuration>
+    <session-factory>
+
+<!--        HSQLDB properties-->
+        <property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
+        <property name="hibernate.connection.url">jdbc:hsqldb:mem:forumDB</property>
+        <property name="hibernate.connection.username">forum</property>
+        <property name="hibernate.connection.password">16108</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+
+        <!--PostgreSQL properties-->
+<!--        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>-->
+<!--        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/forumDB</property>-->
+<!--        <property name="hibernate.connection.username">postgres</property>-->
+<!--        <property name="hibernate.connection.password">*****</property>-->
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>-->
+
+        <property name="hibernate.connection.pool_size">10</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">false</property>
+
+        <mapping class="com.vpd.courseproject.forum.persistence.entity.SectionBlock"/>
+        <mapping class="com.vpd.courseproject.forum.persistence.entity.Section"/>
+        <mapping class="com.vpd.courseproject.forum.persistence.entity.Topic"/>
+        <mapping class="com.vpd.courseproject.forum.persistence.entity.Message"/>
+        <mapping class="com.vpd.courseproject.forum.persistence.entity.User"/>
+        <mapping class="com.vpd.courseproject.forum.persistence.entity.PrivateMessage"/>
+        <mapping class="com.vpd.courseproject.forum.persistence.entity.Article"/>
+    </session-factory>
+</hibernate-configuration>
+
+
+
+
+

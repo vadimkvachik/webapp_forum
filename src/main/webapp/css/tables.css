@@ -1,0 +1,115 @@
+table {
+    opacity: 0.7;
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto auto 10px;
+    font-family: "Comic Sans MS", serif;
+}
+
+table#information {
+    max-width: 800px;
+    min-width: 800px;
+}
+
+table.article {
+    min-width: 1200px;
+}
+
+th, td {
+    padding-left: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+td.main_entry {
+    min-width: 300px;
+}
+
+td.count_entry {
+    width: 8%;
+    text-align: center;
+    min-width: 90px;
+}
+
+td.last_message_entry {
+    font-size: 15px;
+    width: 20%;
+    min-width: 260px;
+
+}
+
+td.message_user {
+    width: 20%;
+    vertical-align: top;
+}
+
+td.message_user strong {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #02335c;
+    float: none;
+}
+
+td.message_text {
+    width: 60%;
+    min-width: 400px;
+    vertical-align: top;
+    height: 150px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: bold;
+
+}
+
+td.table_button {
+    width: 20%;
+    border: none;
+    padding-right: 12px;
+}
+
+td.tableTitle {
+    color: white;
+    background-color: #02335c;
+    height: 30px;
+}
+
+tr.tableHead {
+    background-color: #e6e6e6;
+    font-weight: bold;
+    font-size: 14px;
+    height: 25px;
+}
+
+tr.entry_forum {
+    height: 55px;
+}
+
+tr.no_entries {
+    height: 100px;
+    text-align: center;
+}
+
+table#buttonTable {
+    border: none;
+    background: none;
+    opacity: 1;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    width: 70%;
+}
+
+td.information {
+    color: #02335c;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+td.user_entry {
+    height: 40px;
+}

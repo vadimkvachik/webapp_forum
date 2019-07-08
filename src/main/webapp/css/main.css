@@ -1,0 +1,101 @@
+
+body {
+    background-image: url(../resources/images/background.png);
+    font-family: Arial, serif;
+    height: 100%;
+}
+
+A {
+    text-decoration: none;
+    color: #02335c;
+
+}
+
+A.whiteLinks {
+    text-decoration: none;
+    color: white;
+}
+
+A.yellowLinks {
+    padding: 0 3px 0 3px;
+    text-decoration: none;
+    color: #bdbd00;
+    border: 1px ridge white;
+}
+
+p.name {
+    margin-top: 0;
+}
+
+strong {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+div#header {
+    min-width: 1250px;
+    color: white;
+    background-color: #02335c;
+    opacity: 0.7;
+    height: 150px;
+    padding: 5px;
+    margin: -8px;
+}
+
+div#logo {
+    width: 10%;
+    float: left;
+}
+
+div#description {
+    width: 63%;
+    padding-left: 60px;
+    float: left;
+
+}
+
+div#user_block {
+    width: 10%;
+    padding-top: 25px;
+    float: left;
+    min-width: 210px;
+}
+
+div#buttonPanel {
+    min-width: 1000px;
+}
+
+div#languagePanel {
+    text-align: right;
+}
+
+ul {
+    padding: 0 1px 0 30px;
+    margin: 0;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+div#userPanel p {
+    margin: 0 0 0 5px;
+    font-size: 15px;
+}
+
+div#userPanel {
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: -8px;
+    color: #02335c;
+}
+
+.float {
+    float: left;
+    padding-right: 10px;
+}
+
+h2 {
+    margin-top: 8px;
+    margin-left: 25px;
+    margin-bottom: -5px;
+}

@@ -1,0 +1,121 @@
+input, textarea {
+    outline:none;
+}
+
+form.add_form input[type="text"],
+form.edit_form input[type="text"],
+form.edit_form input[type="text"] {
+    width: 290px;
+    font-weight: bold;
+    line-height: 16px;
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 20px;
+    border-color: #02335c;
+    resize: none;
+    margin-right: 5px;
+    float: left;
+    padding-left: 10px;
+    background: white;
+    color: #02335c;
+}
+
+form.edit_form {
+    display: none;
+}
+
+form.delete_button input[type="submit"],
+button.edit_button {
+    width: 20px;
+    height: 20px;
+    border-width: 0;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: brown;
+    color: white;
+    float: left;
+}
+
+form input:-ms-input-placeholder,
+form textarea:-ms-input-placeholder {
+    color: #02335c;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #02335c;
+    opacity: 1;
+}
+
+
+form#new_message {
+    background: #02335c;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+form#new_message input {
+    display: block;
+    width: 93%;
+    padding: 0 20px;
+    margin: 0 0 0 15px;
+    line-height: 30px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: sans-serif;
+    resize: none;
+}
+
+form#new_message textarea {
+    display: block;
+    width: 95%;
+    margin: 0 0 10px 15px;
+    padding: 10px 0 10px 15px;
+    line-height: 20px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: sans-serif;
+    resize: none;
+}
+
+.edit_form textarea {
+    width: 98%;
+    border-width: 2px;
+    border-style: ridge;
+    font-family: sans-serif;
+    border-radius: 20px;
+    resize: none;
+    margin-right: 5px;
+    padding: 5px 0 5px 10px ;
+    background: white;
+    color: #02335c;
+
+}
+
+
+form#new_message input[type="submit"] {
+    max-width: 100px;
+}
+
+div.login_form input {
+    display: block;
+    padding: 0 20px;
+    margin-bottom: -10px;
+    background: #E9EFF6;
+    line-height: 30px;
+    border-width: 0;
+    border-radius: 20px;
+    color: #02335c;
+}
+div.login_form #submitButton {
+    background: #f69a73;
+    color: white;
+    font-size: 14px;
+}
+
+form.change_message {
+    margin-top: -15px;
+    display: block;
+}
